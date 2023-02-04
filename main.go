@@ -46,7 +46,7 @@ func handleArgs() (string, int) {
 	flag.IntVar(&nPorts, "n", 1024, "number of ports to scan (starting from 1)")
 	flag.Parse()
 	if fileName == "" {
-		fmt.Println("file name and port number are required")
+		fmt.Println("file name is required")
 		os.Exit(1)
 	}
 	return fileName, nPorts
