@@ -1,4 +1,4 @@
-# go_uport
+# go_uhost
 Scan large numbers of networks looking for an opened port (tcp) - very fast
 
 ## Usage
